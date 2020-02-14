@@ -2,11 +2,11 @@ from dataset import *
 from utils import *
 
 from models.PepCNN import *
-from models.DnaCNN import *
-from models.RNN import *
-from models.SingleFrameCNN import *
-from models.Transformer import Transformer
-from models.openset import *
+# from models.DnaCNN import *
+# from models.RNN import *
+# from models.SingleFrameCNN import *
+# from models.Transformer import Transformer
+# from models.openset import *
 
 criterion = nn.CrossEntropyLoss().cuda()
 
