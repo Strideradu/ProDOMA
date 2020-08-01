@@ -86,12 +86,13 @@ optional arguments:
   --apex
 ```
 
-Dependecies
+Dependencies
 ----------
 
 * Python 3 (You may need to modify some script if you want to use Python 2.7)
 * [PyTorch](https://pytorch.org/) an open source machine learning framework
 * [Biopython](http://biopython.org/) library for Python
+* [Apex](https://github.com/NVIDIA/apex) A PyTorch Extension: Tools for easy mixed precision and distributed training in Pytorch
 
 References
 ----------
