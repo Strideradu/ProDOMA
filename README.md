@@ -85,6 +85,15 @@ optional arguments:
                         path to threshold file.
   --apex
 ```
+To train outlier exposure please using 
+```
+python train_oe.py and specify --ood_file as OOD dataset for exposue
+```
+To predict with outlier exposure usinh
+```
+python predict_openset.py
+```
+And following the instructions
 
 Dependencies
 ----------
